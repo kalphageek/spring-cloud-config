@@ -3,4 +3,6 @@ token:
     secret: user_token_native_default
 
 gateway:
-  ip: 127.0.0.1
+  # docker의 network ip로 변경
+  ip: 172.18.0.6
+  # ip: 127.0.0.1
